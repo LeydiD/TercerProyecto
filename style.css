@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+ul, li, ol{list-style: none;}
+.header-siaweb{
+    background-color: rgb(57, 2, 255);
+    width: 100%;
+}
+
+.header-siaweb nav{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /*colocar la lista de navegación al final*/
+    justify-content: space-between;
+}
+.header-siaweb nav ol{
+    display: flex;
+}
+
+.header-siaweb nav img{ 
+    width: 200px;
+}
+.header-siaweb nav ol li a{
+    color: aliceblue;
+    margin-left: 1rem;
+    text-decoration:none;
+    transition: 0.8s;
+}
+.header-siaweb nav ol li a:hover{
+    color:black ;
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+/* Section */
+.imgs-siaweb{
+    margin: 0 auto;
+    width: 100%;
+    padding: 4rem 0;
+    background-color: rgb(238, 224, 208);
+}
+.imgs-siaweb article{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+.imgs-siaweb article div{
+    display: flex;
+    margin-top: 2rem;
+}
+.imgs-siaweb article div figure{
+    width: 33.33%;
+    /*Alinear la izquierda los textos hijos de figure*/
+    text-align: center;
+}
+
+.imgs-siaweb article div figure:nth-child(2){
+    /*Para separar las imagenes*/
+    margin: 0 5rem;
+    background: rgb(90, 202, 236);
+
+}
+.imgs-siaweb article div figure:first-child{
+    
+    background: rgb(187, 155, 216);
+
+}
+.imgs-siaweb article div figure:last-child{
+    
+    background: burlywood;
+
+}
+.imgs-siaweb article div figure img{
+    width: 100%;
+}
+.imgs-siaweb article div figure figcaption{
+    margin-top: 1.5rem;
+}
